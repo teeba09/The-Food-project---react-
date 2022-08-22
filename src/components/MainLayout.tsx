@@ -4,7 +4,7 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 interface MainLayoutProps {}
 export interface IContext {}
 
-const MainLayout = () => {
+const MainLayout: FunctionComponent<MainLayoutProps> = () => {
   const navigate = useNavigate();
   const user = 3;
 
