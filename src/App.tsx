@@ -2,7 +2,7 @@ import { useState } from "react";
 // import { QueryClient, QueryClientProvider } from "react-query";
 import Newcard from "./components/Newcard";
 import axios from "axios";
-import Header from "./components/header";
+import Header from "./components/Header";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Foodpage";
 import Insidecard from "./components/Insidecards";
